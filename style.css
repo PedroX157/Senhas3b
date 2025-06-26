@@ -89,6 +89,28 @@ body{
     display: flex;
     justify-content: center;
 }
+.barra {
+    background-color: (var-fundo-senha) ;
+     height: 30px;
+     width: 100%
+}
+.forca {
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+.fraca{
+    width: 25%;
+    background-color: red;
+}
+.média{
+    width: 50%;
+    background-color: yellow;
+}
+.forte{
+    width: 100%;
+    background-color: greenyellow;
+}
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
@@ -117,5 +139,10 @@ font-size: 24px;
     width:20px;
     height: 20px;
     cursor:pointer:
+}
+
+    
+}
+    
 }
 
